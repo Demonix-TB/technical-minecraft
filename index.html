@@ -1,12 +1,101 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <title>Hlavní stránka - Technický Minecraft</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tobiáš Brichta IT2A SWA">
+    <meta name="keywords" content="Minecraft">
+    <meta name="description" content="Česko-anglický minecraft web pro technické hráče vytvořený jako školní projekt"><!--plán je později vytvořit stránku česky i anglicky s tlačítkem na přepnutí-->
+  </head> 
+  <body> 
+    <header>
+      <div class="header">
+        <div class="sitename">
+          <img src="assets/logo.png" alt="logo" id="logo">
+          <h1 id="title">Technická Minecraft Wiki</h1>
+        </div>
+        <nav>
+          <ul id="navbar">
+            <li><a href="index.html" style="color: #e00;" id="selected">Domů</a></li>
+            <li><a href="bloky.html">Bloky</a></li>
+            <li><a href="mechaniky.html">Mechaniky</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <div id="body">
+      <p id="about">
+        <span class="enhance-text">Vítejte.</span> Tato stránka je pro další technické hráče Minecraftu, aby se dozvěděli o přesném fungování jejich oblíbených bloků a staveb, nebo objevili skvělé výtvory ostatních. Pokud víte o nějaké části hry více než je zde, můžete přispět svými znalostmi na GitHub-u stránky, jelikož jsme a zůstaneme Open-source. Vytvořeno jako školní projekt.
+      </p>
+      <div id="videos">
+        <h2>
+          Komunitní výtvory
+        </h2>
+        <div class=video-column>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/_eOIVPQYOt8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/pCS172TY2fQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           </div>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/TBwgu9MVZFM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
 
-</body>
+        <div class=video-column>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/EeGtJKOjpCw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/SbO0tqH8f5I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           </div>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/xFTna4l2gpM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class=video-column>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/1pBzYHOT8V4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/W3ZUdjdgvTY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           </div>
+          <div class="video-wrapper">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/dU-XMCJx6Ew" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="footer">
+        <p>Projekt SWA 2020 <a href="https://validator.w3.org/">https://validator.w3.org/</a> <a href="dokumentace.pdf">Dokumentace</a></p>
+      </div>
+    </footer>
+  </body>   
 </html>
